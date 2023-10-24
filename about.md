@@ -4,16 +4,16 @@ image: /assets/img/blog/hydejack-9.jpg
 description: >
   About Archana Sharma
 hide_description: true
-redirect_from:
-  - /download/
+# redirect_from:
+#   - /download/
 ---
 
 # About
 
 <!--author-->
+{% comment %}
 
-<!-- ## Hydejack
-
+## Hydejack
 A boutique Jekyll theme for hackers, nerds, and academics.  
 {:.lead}
 
@@ -51,13 +51,13 @@ Hydejack is all static sites. _HTML_. All you need is a web server --- any web s
 <!--posts-->
 
 
-<!-- ## An Impressive Portfolio
-A portfolio that's guaranteed to be impressive — no matter what you put into it. -->
+## An Impressive Portfolio
+A portfolio that's guaranteed to be impressive — no matter what you put into it.
 
 <!--projects-->
 
 
-<!-- ## A Printable Resume
+## A Printable Resume
 Get a resume that's consistent across the board — whether it's on the web, mobile, print, or [PDF](assets/Resume.pdf).
 
 [![Resume PDF](assets/img/blog/resume.png){:.lead width="884" height="632" loading="lazy"}][resume]{:.no-hover.no-mark}
@@ -82,9 +82,9 @@ The Hydejack blog, as seen by the text browser `w3m`.
 ## Syntax Highlighting
 **Hydejack** features syntax highlighting, powered by [Rouge].
 
-```html -->
+```html
 <!-- file: `_includes/my-body.html` -->
-<!-- <script type="module">
+<script type="module">
   document.querySelector("hy-push-state").addEventListener("hy-push-state-load", () => {
     const supportsCodeHighlights = false; // TBD!!
   });
@@ -140,10 +140,10 @@ If you are using a different service like MailChimp, you can build a custom news
 
 Use the the form below to purchase Hydejack PRO:
 
-<div class="gumroad-product-embed" data-gumroad-product-id="nuOluY"><a href="https://gumroad.com/l/nuOluY">Loading…</a></div> -->
+<div class="gumroad-product-embed" data-gumroad-product-id="nuOluY"><a href="https://gumroad.com/l/nuOluY">Loading…</a></div>
 
 
-<!-- [blog]: /
+[blog]: /
 [portfolio]: https://hydejack.com/examples/
 [resume]: https://hydejack.com/resume/
 [download]: https://hydejack.com/download/
@@ -173,4 +173,5 @@ Use the the form below to purchase Hydejack PRO:
 [rouge]: http://rouge.jneen.net
 [katex]: https://khan.github.io/KaTeX/
 [mathjax]: https://www.mathjax.org/
-[tinyletter]: https://tinyletter.com/ -->
+[tinyletter]: https://tinyletter.com/
+{% endcomment %}
