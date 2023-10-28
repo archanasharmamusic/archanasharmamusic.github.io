@@ -4,8 +4,8 @@ image: /assets/img/blog/hydejack-9.jpg
 description: >
   About Archana Sharma
 hide_description: true
-# redirect_from:
-#   - /download/
+redirect_from:
+  - /download/
 ---
 
 # About
