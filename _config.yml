@@ -57,6 +57,8 @@ menu:
     url:               /about/
   # - title:             Contact Me
   #   url:               /contact/
+  - title:             linktr.ee site
+    url:               https://linktr.ee/ArchanaSharmaMusic
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
